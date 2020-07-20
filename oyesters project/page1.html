@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>INDIAN FOOD</title>
+	<link rel="stylesheet" type="text/css" href="css\stylesheet.css">
+	<script src = "js/script.js"></script>
+	<!--<script type="text/javascript">
+		function update(previewPic)
+		{
+			document.getElementById('imagepreview').style.background="url("+previewPic.src+")";
+			document.getElementById('imagepreview').style.display="block ";
+			document.getElementById('imagepreview').innerHTML="";
+		}
+		function unDo()
+		{
+    		document.getElementById('imagepreview').innerHTML= "Hover over an image below to display here. " ;
+			document.getElementById('imagepreview').style.background="";	
+		}
+	</script>-->
+</head>
+<body >
+	<header >
+		<img class="logo" src="images/logo.jpg" alt="logo">
+		<h1>Indian Food!</h1>
+		<nav>
+			<a href="https://en.wikipedia.org/wiki/Dosa">Dosa</a>
+			<a href="https://en.wikipedia.org/wiki/Dhokla">Dhokla</a>
+			<a href="https://en.wikipedia.org/wiki/Chole_bhature">Chhole Bhature</a>
+		</nav>
+		<img class="sidelogo" src="images/indianfood.jpg" alt="side logo">
+	</header>
+	<div class="content">
+		<div class="dosa">
+			<h2>Dosa</h2>
+			<img id="dosaimg" src="images/dosa2.jpg" alt="Dosa" onclick="upDate(this)" onmouseover = "upDate(this)"  >
+			<p>A dosa is a rice pancake, originating from South India, made from a fermented batter. It is somewhat similar to a crepe in appearance. Its main ingredients are rice and black gram, ground together in a fine, smooth batter with a dash of salt. Dosas are a common part of the diet in South India, but has become popular all over the Indian subcontinent. Traditionally, dosas are served hot along with sambar and chutney.</p>
+			<button><a href="https://api.whatsapp.com/send?phone=919167613916&text=INDIAN_FOOD_DOSA">order</a></button>
+		</div>
+		<div class="dhokla">
+			<h2>Dhokla</h2>
+			<img id="dhoklaimg" alt="Dhokla" src="images/dhokla.jpg" onclick="upDate(this)" onmouseover = "upDate(this)" >
+			<p>Dhokla is a vegetarian culinary dish that is found mainly in the Indian state of Gujarat and parts of adjacent states. It is made with a fermented batter derived from rice and split chickpeas. Dhokla can be eaten for breakfast, as a main course, as a side dish, or as a snack. Dhokla is very similar to Khaman, however Dhokla is made of batter derived from rice gram and is white in color, whereas Khaman is typically made from Chickpeas gram and looks yellow in color. Khaman has become widely popular outside Gujarat but is misunderstood or incorrectly known as Dhokla.</p>
+			<button><a href="https://api.whatsapp.com/send?phone=919167613916&text=INDIAN_FOOD_DHOKLA">order</a></button>
+		</div>
+		<div class="chholebhature">
+			<h2>Chhole Bhature</h2>
+			<img id="chholebhatureimg" src="images/chhole4.jpg" alt="Chole_bhature" onclick="upDate(this)" onmouseover = "upDate(this)" >
+			<p>Chole bhature (Hindi: छोले भटूरे) is a food dish originating from northern India. Known as "Halwa Puri" in Pakistan, it is a combination of chana masala (spicy white chickpeas) and bhatura/Puri, a fried bread made from maida. There is a distinct Punjabi variant of the dish. The dish is also very popular in Pakistan as a breakfast meal. The major difference in Chole Bhature and Halwa Puri is that Halwa Puri is served additionally with Halwa.Chhole bhature is often eaten as a breakfast dish, sometimes accompanied with lassi. It can also be street food or a complete meal and may be accompanied with onions, pickled carrots, green chutney or achaar.</p>
+			<button><a href="https://api.whatsapp.com/send?phone=919167613916&text=INDIAN_FOOD_CHHOLEBHATURE">order</a></button>
+		</div>
+	</div>
+	<div id="imagepreview">
+		Hover over an image above to display here.
+	</div>
+	<footer>
+		<div class="left">
+			<h3>contact</h3>
+			<ul>
+				<li><a href="https://www.linkedin.com/in/stuti-kandpal-65a801163">LinkedIn</a></li>
+				<li><a href="mailto:stuti0103@gmail.com?subject=Indian%20Food">Mail me!</a></li>
+			</ul>
+		</div>
+		<div class="right">
+			<a>&copy Stuti_Kandpal</a>
+		</div>
+	</footer>
+</body>
+</html>

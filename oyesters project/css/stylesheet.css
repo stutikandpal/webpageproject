@@ -1,0 +1,205 @@
+header{
+	text-align: center;
+	color: #ffffff;
+	background-color: #024366;
+}
+.logo{
+	display: inline-block;
+	width: 25%;
+	height:35%;
+	position: absolute;
+	left: 2%;
+	top: 4%;
+}
+.sidelogo{
+	display: inline-block;
+	width: 25%;
+	height:35%;
+	position: absolute;
+	left: 73%;
+	top: 4%;
+}
+h1{
+
+	display: inline-block;
+	position: relative;
+	left: 0.5%;
+	font-size: 200%;
+}
+nav a{
+	text-decoration: none;
+	display: inline-block;
+	background-color: #77cfff;
+	width: 10%;
+	padding:2% 1%;
+	border: #000000 solid 2%;
+	position: relative;
+	left: 0.5%;
+	margin:2% 1%;
+
+}
+nav a:hover,nav a:focus{
+	background-color: #ffffff;
+}
+footer{
+	background-color: rgba(12,69,100,1);
+	color: #ffffff;
+}
+li{
+	display: inline-block;
+	margin: 0% 2% 0% 2%;
+	padding: 0.1% 2% .1% 2%;
+}
+#imagepreview{
+    line-height:650px;
+		width: 575px;
+    height: 650px;
+		border:5px solid black;
+		margin:0 auto;
+    background-color: rgba(12,69,100,1);
+    background-image: url("");
+    background-repeat: no-repeat;
+    color:#000000;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom:25px;
+    font-size: 150%;
+    /*display:none;*/
+}
+header img{
+	display: none;
+}
+li a{
+	background-color: #77cfff;
+	float: left;
+}
+h3{
+	position: relative;
+	left: 15%;
+}
+footer{
+	background-color: rgba(12,69,100,1);
+}
+.right a{
+	display: inline-block;
+	background-color: rgba(12,69,100,1);
+	float: right
+} 
+.right a:hover{
+	background-color: rgba(12,69,100,1);
+} 
+@media only screen and (max-width: 1200px)
+{
+	.dosa , .chholebhature , .dhokla {
+	display: inline-block;
+	width: 29%;
+	text-align: justify;
+	margin: 1%;
+	padding: 1%;
+	background-color: rgba(12,69,100,.8);
+	color: #ffffff;
+	height: 300px;
+	min-height: 300px;
+	max-height: 300px;
+	overflow: auto;
+
+}
+.dosa:hover , .chholebhature:hover , .dhokla:hover{
+	background-color: rgba(12,69,100,1);
+}
+h2{
+	text-align: center;
+}
+button{
+	margin: 0% 40%;
+	text-decoration: none;
+}
+button a:active, button a:hover {
+	background-color: #ffffff;
+	text-decoration: none;
+}
+img{
+	display: inline-block;
+	width: 70%;
+	height: 70%;
+	position: relative;
+	left:15%;
+}
+}
+@media only screen and (max-width: 600px){
+.dosa , .chholebhature , .dhokla {
+	display: inline-block;
+	width: 90%;
+	text-align: justify;
+	margin: 1%;
+	padding: 1%;
+	background-color: rgba(12,69,100,.8);
+	color: #ffffff;
+	height: 300px;
+	min-height: 300px;
+	max-height: 300px;
+	overflow: auto;
+
+}
+.dosa:hover , .chholebhature:hover , .dhokla:hover{
+	background-color: rgba(12,69,100,1);
+}
+button{
+	margin: 0% 40%;
+	text-decoration: none;
+}
+button a:active, button a:hover {
+	background-color: #ffffff;
+	text-decoration: none;
+}
+h2{
+	text-align: center;
+}
+img{
+	display: inline-block;
+	width: 70%;
+	height: 70%;
+	position: relative;
+	left:15%;
+}
+}
+@media only screen and (max-width: 800px){
+.dosa , .chholebhature , .dhokla {
+	display: inline-block;
+	width: 43%;
+	text-align: justify;
+	margin: 1%;
+	padding: 1%;
+	background-color: rgba(12,69,100,.8);
+	color: #ffffff;
+	height: 300px;
+	min-height: 300px;
+	max-height: 300px;
+	overflow: auto;
+
+}
+button{
+	margin: 0% 40%;
+	text-decoration: none;
+}
+button a:active, button a:hover {
+	background-color: #ffffff;
+	text-decoration: none;
+}
+.chholebhature{
+	width:90%;
+}
+.dosa:hover , .chholebhature:hover , .dhokla:hover{
+	background-color: rgba(12,69,100,1);
+}
+h2{
+	text-align: center;
+}
+img{
+	display: inline-block;
+	width: 70%;
+	height: 70%;
+	position: relative;
+	left:15%;
+}
+}
